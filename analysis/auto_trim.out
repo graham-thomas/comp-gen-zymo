@@ -1,0 +1,490 @@
+nohup: ignoring input and appending output to 'nohup.out'
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740249_R1.fastq SRR3740249_R2.fastq SRR3740249_R1_pair.fastq SRR3740249_R1_unpair.fastq SRR3740249_R2_pair.fastq SRR3740249_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 3720337 Both Surviving: 3562302 (95.75%) Forward Only Surviving: 22797 (0.61%) Reverse Only Surviving: 100992 (2.71%) Dropped: 34246 (0.92%)
+TrimmomaticPE: Completed successfully
+
+real	0m12.404s
+user	0m29.034s
+sys	0m4.074s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740250_R1.fastq SRR3740250_R2.fastq SRR3740250_R1_pair.fastq SRR3740250_R1_unpair.fastq SRR3740250_R2_pair.fastq SRR3740250_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 7694410 Both Surviving: 7373505 (95.83%) Forward Only Surviving: 196420 (2.55%) Reverse Only Surviving: 47905 (0.62%) Dropped: 76580 (1.00%)
+TrimmomaticPE: Completed successfully
+
+real	0m26.749s
+user	0m57.297s
+sys	0m8.056s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740251_R1.fastq SRR3740251_R2.fastq SRR3740251_R1_pair.fastq SRR3740251_R1_unpair.fastq SRR3740251_R2_pair.fastq SRR3740251_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5379815 Both Surviving: 4982235 (92.61%) Forward Only Surviving: 188713 (3.51%) Reverse Only Surviving: 61686 (1.15%) Dropped: 147181 (2.74%)
+TrimmomaticPE: Completed successfully
+
+real	0m17.610s
+user	0m39.670s
+sys	0m5.486s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740252_R1.fastq SRR3740252_R2.fastq SRR3740252_R1_pair.fastq SRR3740252_R1_unpair.fastq SRR3740252_R2_pair.fastq SRR3740252_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 8147150 Both Surviving: 7603240 (93.32%) Forward Only Surviving: 320851 (3.94%) Reverse Only Surviving: 76570 (0.94%) Dropped: 146489 (1.80%)
+TrimmomaticPE: Completed successfully
+
+real	3m19.039s
+user	1m32.978s
+sys	0m16.789s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740253_R1.fastq SRR3740253_R2.fastq SRR3740253_R1_pair.fastq SRR3740253_R1_unpair.fastq SRR3740253_R2_pair.fastq SRR3740253_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 7206703 Both Surviving: 6737599 (93.49%) Forward Only Surviving: 81928 (1.14%) Reverse Only Surviving: 231758 (3.22%) Dropped: 155418 (2.16%)
+TrimmomaticPE: Completed successfully
+
+real	2m6.631s
+user	0m50.629s
+sys	0m8.495s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740254_R1.fastq SRR3740254_R2.fastq SRR3740254_R1_pair.fastq SRR3740254_R1_unpair.fastq SRR3740254_R2_pair.fastq SRR3740254_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4457718 Both Surviving: 4080122 (91.53%) Forward Only Surviving: 205177 (4.60%) Reverse Only Surviving: 50589 (1.13%) Dropped: 121830 (2.73%)
+TrimmomaticPE: Completed successfully
+
+real	1m11.161s
+user	0m32.407s
+sys	0m5.248s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740255_R1.fastq SRR3740255_R2.fastq SRR3740255_R1_pair.fastq SRR3740255_R1_unpair.fastq SRR3740255_R2_pair.fastq SRR3740255_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 3792673 Both Surviving: 3473792 (91.59%) Forward Only Surviving: 43642 (1.15%) Reverse Only Surviving: 171243 (4.52%) Dropped: 103996 (2.74%)
+TrimmomaticPE: Completed successfully
+
+real	1m21.236s
+user	0m27.806s
+sys	0m4.402s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740256_R1.fastq SRR3740256_R2.fastq SRR3740256_R1_pair.fastq SRR3740256_R1_unpair.fastq SRR3740256_R2_pair.fastq SRR3740256_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 3974218 Both Surviving: 3688929 (92.82%) Forward Only Surviving: 141014 (3.55%) Reverse Only Surviving: 45191 (1.14%) Dropped: 99084 (2.49%)
+TrimmomaticPE: Completed successfully
+
+real	1m3.036s
+user	0m29.079s
+sys	0m5.269s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740257_R1.fastq SRR3740257_R2.fastq SRR3740257_R1_pair.fastq SRR3740257_R1_unpair.fastq SRR3740257_R2_pair.fastq SRR3740257_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5757688 Both Surviving: 5379559 (93.43%) Forward Only Surviving: 222668 (3.87%) Reverse Only Surviving: 58361 (1.01%) Dropped: 97100 (1.69%)
+TrimmomaticPE: Completed successfully
+
+real	1m40.021s
+user	0m43.100s
+sys	0m6.608s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740258_R1.fastq SRR3740258_R2.fastq SRR3740258_R1_pair.fastq SRR3740258_R1_unpair.fastq SRR3740258_R2_pair.fastq SRR3740258_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5301786 Both Surviving: 4962773 (93.61%) Forward Only Surviving: 215657 (4.07%) Reverse Only Surviving: 48681 (0.92%) Dropped: 74675 (1.41%)
+TrimmomaticPE: Completed successfully
+
+real	1m29.349s
+user	0m39.542s
+sys	0m6.255s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740259_R1.fastq SRR3740259_R2.fastq SRR3740259_R1_pair.fastq SRR3740259_R1_unpair.fastq SRR3740259_R2_pair.fastq SRR3740259_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4814022 Both Surviving: 4461172 (92.67%) Forward Only Surviving: 50507 (1.05%) Reverse Only Surviving: 208826 (4.34%) Dropped: 93517 (1.94%)
+TrimmomaticPE: Completed successfully
+
+real	1m19.026s
+user	0m34.957s
+sys	0m5.912s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740260_R1.fastq SRR3740260_R2.fastq SRR3740260_R1_pair.fastq SRR3740260_R1_unpair.fastq SRR3740260_R2_pair.fastq SRR3740260_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 6814298 Both Surviving: 6305888 (92.54%) Forward Only Surviving: 68380 (1.00%) Reverse Only Surviving: 293823 (4.31%) Dropped: 146207 (2.15%)
+TrimmomaticPE: Completed successfully
+
+real	1m59.406s
+user	0m47.942s
+sys	0m8.316s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740261_R1.fastq SRR3740261_R2.fastq SRR3740261_R1_pair.fastq SRR3740261_R1_unpair.fastq SRR3740261_R2_pair.fastq SRR3740261_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 6675065 Both Surviving: 6160311 (92.29%) Forward Only Surviving: 56754 (0.85%) Reverse Only Surviving: 359478 (5.39%) Dropped: 98522 (1.48%)
+TrimmomaticPE: Completed successfully
+
+real	2m1.088s
+user	0m46.014s
+sys	0m7.535s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740262_R1.fastq SRR3740262_R2.fastq SRR3740262_R1_pair.fastq SRR3740262_R1_unpair.fastq SRR3740262_R2_pair.fastq SRR3740262_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4561764 Both Surviving: 4358858 (95.55%) Forward Only Surviving: 27194 (0.60%) Reverse Only Surviving: 134173 (2.94%) Dropped: 41539 (0.91%)
+TrimmomaticPE: Completed successfully
+
+real	1m18.539s
+user	0m31.704s
+sys	0m5.816s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740263_R1.fastq SRR3740263_R2.fastq SRR3740263_R1_pair.fastq SRR3740263_R1_unpair.fastq SRR3740263_R2_pair.fastq SRR3740263_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5782084 Both Surviving: 5413096 (93.62%) Forward Only Surviving: 54150 (0.94%) Reverse Only Surviving: 218886 (3.79%) Dropped: 95952 (1.66%)
+TrimmomaticPE: Completed successfully
+
+real	1m45.036s
+user	0m41.356s
+sys	0m6.730s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740264_R1.fastq SRR3740264_R2.fastq SRR3740264_R1_pair.fastq SRR3740264_R1_unpair.fastq SRR3740264_R2_pair.fastq SRR3740264_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5600231 Both Surviving: 5333250 (95.23%) Forward Only Surviving: 29329 (0.52%) Reverse Only Surviving: 195293 (3.49%) Dropped: 42359 (0.76%)
+TrimmomaticPE: Completed successfully
+
+real	1m42.304s
+user	0m38.860s
+sys	0m6.597s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740265_R1.fastq SRR3740265_R2.fastq SRR3740265_R1_pair.fastq SRR3740265_R1_unpair.fastq SRR3740265_R2_pair.fastq SRR3740265_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5755999 Both Surviving: 5405813 (93.92%) Forward Only Surviving: 243001 (4.22%) Reverse Only Surviving: 34943 (0.61%) Dropped: 72242 (1.26%)
+TrimmomaticPE: Completed successfully
+
+real	1m41.667s
+user	0m42.197s
+sys	0m6.572s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740266_R1.fastq SRR3740266_R2.fastq SRR3740266_R1_pair.fastq SRR3740266_R1_unpair.fastq SRR3740266_R2_pair.fastq SRR3740266_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4980758 Both Surviving: 4534209 (91.03%) Forward Only Surviving: 215524 (4.33%) Reverse Only Surviving: 55835 (1.12%) Dropped: 175190 (3.52%)
+TrimmomaticPE: Completed successfully
+
+real	1m24.698s
+user	0m36.547s
+sys	0m6.060s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740267_R1.fastq SRR3740267_R2.fastq SRR3740267_R1_pair.fastq SRR3740267_R1_unpair.fastq SRR3740267_R2_pair.fastq SRR3740267_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4322531 Both Surviving: 4033213 (93.31%) Forward Only Surviving: 172314 (3.99%) Reverse Only Surviving: 46787 (1.08%) Dropped: 70217 (1.62%)
+TrimmomaticPE: Completed successfully
+
+real	1m14.518s
+user	0m30.933s
+sys	0m4.824s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740268_R1.fastq SRR3740268_R2.fastq SRR3740268_R1_pair.fastq SRR3740268_R1_unpair.fastq SRR3740268_R2_pair.fastq SRR3740268_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4558528 Both Surviving: 4233014 (92.86%) Forward Only Surviving: 51571 (1.13%) Reverse Only Surviving: 151381 (3.32%) Dropped: 122562 (2.69%)
+TrimmomaticPE: Completed successfully
+
+real	1m30.886s
+user	0m33.142s
+sys	0m5.777s
+nohup: ignoring input and appending output to 'nohup.out'
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740269_R1.fastq SRR3740269_R2.fastq SRR3740269_R1_pair.fastq SRR3740269_R1_unpair.fastq SRR3740269_R2_pair.fastq SRR3740269_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 3667291 Both Surviving: 3415332 (93.13%) Forward Only Surviving: 41865 (1.14%) Reverse Only Surviving: 126667 (3.45%) Dropped: 83427 (2.27%)
+TrimmomaticPE: Completed successfully
+
+real	0m56.352s
+user	0m27.117s
+sys	0m4.508s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740270_R1.fastq SRR3740270_R2.fastq SRR3740270_R1_pair.fastq SRR3740270_R1_unpair.fastq SRR3740270_R2_pair.fastq SRR3740270_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4649264 Both Surviving: 4353093 (93.63%) Forward Only Surviving: 148831 (3.20%) Reverse Only Surviving: 51779 (1.11%) Dropped: 95561 (2.06%)
+TrimmomaticPE: Completed successfully
+
+real	1m10.591s
+user	0m32.607s
+sys	0m6.129s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740271_R1.fastq SRR3740271_R2.fastq SRR3740271_R1_pair.fastq SRR3740271_R1_unpair.fastq SRR3740271_R2_pair.fastq SRR3740271_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 11814852 Both Surviving: 11031364 (93.37%) Forward Only Surviving: 197567 (1.67%) Reverse Only Surviving: 330258 (2.80%) Dropped: 255663 (2.16%)
+TrimmomaticPE: Completed successfully
+
+real	2m57.737s
+user	1m23.911s
+sys	0m13.114s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740272_R1.fastq SRR3740272_R2.fastq SRR3740272_R1_pair.fastq SRR3740272_R1_unpair.fastq SRR3740272_R2_pair.fastq SRR3740272_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 8762848 Both Surviving: 7910949 (90.28%) Forward Only Surviving: 264400 (3.02%) Reverse Only Surviving: 439539 (5.02%) Dropped: 147960 (1.69%)
+TrimmomaticPE: Completed successfully
+
+real	2m13.052s
+user	1m0.343s
+sys	0m9.498s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740273_R1.fastq SRR3740273_R2.fastq SRR3740273_R1_pair.fastq SRR3740273_R1_unpair.fastq SRR3740273_R2_pair.fastq SRR3740273_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 3867397 Both Surviving: 3675809 (95.05%) Forward Only Surviving: 22538 (0.58%) Reverse Only Surviving: 130578 (3.38%) Dropped: 38472 (0.99%)
+TrimmomaticPE: Completed successfully
+
+real	0m57.687s
+user	0m28.324s
+sys	0m5.025s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740274_R1.fastq SRR3740274_R2.fastq SRR3740274_R1_pair.fastq SRR3740274_R1_unpair.fastq SRR3740274_R2_pair.fastq SRR3740274_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 11252006 Both Surviving: 10320675 (91.72%) Forward Only Surviving: 243482 (2.16%) Reverse Only Surviving: 424556 (3.77%) Dropped: 263293 (2.34%)
+TrimmomaticPE: Completed successfully
+
+real	2m56.549s
+user	1m19.151s
+sys	0m12.217s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740275_R1.fastq SRR3740275_R2.fastq SRR3740275_R1_pair.fastq SRR3740275_R1_unpair.fastq SRR3740275_R2_pair.fastq SRR3740275_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 12375961 Both Surviving: 11545510 (93.29%) Forward Only Surviving: 210699 (1.70%) Reverse Only Surviving: 367117 (2.97%) Dropped: 252635 (2.04%)
+TrimmomaticPE: Completed successfully
+
+real	2m53.908s
+user	1m24.744s
+sys	0m14.809s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740276_R1.fastq SRR3740276_R2.fastq SRR3740276_R1_pair.fastq SRR3740276_R1_unpair.fastq SRR3740276_R2_pair.fastq SRR3740276_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10644971 Both Surviving: 9875683 (92.77%) Forward Only Surviving: 335405 (3.15%) Reverse Only Surviving: 193121 (1.81%) Dropped: 240762 (2.26%)
+TrimmomaticPE: Completed successfully
+
+real	3m3.883s
+user	1m17.267s
+sys	0m11.623s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740277_R1.fastq SRR3740277_R2.fastq SRR3740277_R1_pair.fastq SRR3740277_R1_unpair.fastq SRR3740277_R2_pair.fastq SRR3740277_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 9741725 Both Surviving: 9105642 (93.47%) Forward Only Surviving: 284382 (2.92%) Reverse Only Surviving: 173321 (1.78%) Dropped: 178380 (1.83%)
+TrimmomaticPE: Completed successfully
+
+real	2m36.531s
+user	1m10.715s
+sys	0m10.941s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740278_R1.fastq SRR3740278_R2.fastq SRR3740278_R1_pair.fastq SRR3740278_R1_unpair.fastq SRR3740278_R2_pair.fastq SRR3740278_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 8522781 Both Surviving: 7989693 (93.75%) Forward Only Surviving: 248327 (2.91%) Reverse Only Surviving: 151161 (1.77%) Dropped: 133600 (1.57%)
+TrimmomaticPE: Completed successfully
+
+real	2m12.194s
+user	1m0.814s
+sys	0m10.087s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740279_R1.fastq SRR3740279_R2.fastq SRR3740279_R1_pair.fastq SRR3740279_R1_unpair.fastq SRR3740279_R2_pair.fastq SRR3740279_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5040787 Both Surviving: 4668284 (92.61%) Forward Only Surviving: 229004 (4.54%) Reverse Only Surviving: 51840 (1.03%) Dropped: 91659 (1.82%)
+TrimmomaticPE: Completed successfully
+
+real	1m19.709s
+user	0m37.234s
+sys	0m5.800s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740280_R1.fastq SRR3740280_R2.fastq SRR3740280_R1_pair.fastq SRR3740280_R1_unpair.fastq SRR3740280_R2_pair.fastq SRR3740280_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 7159439 Both Surviving: 6509584 (90.92%) Forward Only Surviving: 414813 (5.79%) Reverse Only Surviving: 73152 (1.02%) Dropped: 161890 (2.26%)
+TrimmomaticPE: Completed successfully
+
+real	1m45.113s
+user	0m53.104s
+sys	0m9.289s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740281_R1.fastq SRR3740281_R2.fastq SRR3740281_R1_pair.fastq SRR3740281_R1_unpair.fastq SRR3740281_R2_pair.fastq SRR3740281_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 6058555 Both Surviving: 5442275 (89.83%) Forward Only Surviving: 420014 (6.93%) Reverse Only Surviving: 60372 (1.00%) Dropped: 135894 (2.24%)
+TrimmomaticPE: Completed successfully
+
+real	1m36.026s
+user	0m45.073s
+sys	0m7.072s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740282_R1.fastq SRR3740282_R2.fastq SRR3740282_R1_pair.fastq SRR3740282_R1_unpair.fastq SRR3740282_R2_pair.fastq SRR3740282_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 7853040 Both Surviving: 7140766 (90.93%) Forward Only Surviving: 480981 (6.12%) Reverse Only Surviving: 75335 (0.96%) Dropped: 155958 (1.99%)
+TrimmomaticPE: Completed successfully
+
+real	1m59.488s
+user	0m55.633s
+sys	0m9.352s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740283_R1.fastq SRR3740283_R2.fastq SRR3740283_R1_pair.fastq SRR3740283_R1_unpair.fastq SRR3740283_R2_pair.fastq SRR3740283_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5595555 Both Surviving: 5284622 (94.44%) Forward Only Surviving: 214039 (3.83%) Reverse Only Surviving: 33245 (0.59%) Dropped: 63649 (1.14%)
+TrimmomaticPE: Completed successfully
+
+real	1m30.440s
+user	0m38.892s
+sys	0m7.074s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740284_R1.fastq SRR3740284_R2.fastq SRR3740284_R1_pair.fastq SRR3740284_R1_unpair.fastq SRR3740284_R2_pair.fastq SRR3740284_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5093015 Both Surviving: 4697569 (92.24%) Forward Only Surviving: 187462 (3.68%) Reverse Only Surviving: 59160 (1.16%) Dropped: 148824 (2.92%)
+TrimmomaticPE: Completed successfully
+
+real	1m17.754s
+user	0m35.251s
+sys	0m6.324s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740285_R1.fastq SRR3740285_R2.fastq SRR3740285_R1_pair.fastq SRR3740285_R1_unpair.fastq SRR3740285_R2_pair.fastq SRR3740285_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4972180 Both Surviving: 4725997 (95.05%) Forward Only Surviving: 30390 (0.61%) Reverse Only Surviving: 163667 (3.29%) Dropped: 52126 (1.05%)
+TrimmomaticPE: Completed successfully
+
+real	1m13.185s
+user	0m36.400s
+sys	0m5.701s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740286_R1.fastq SRR3740286_R2.fastq SRR3740286_R1_pair.fastq SRR3740286_R1_unpair.fastq SRR3740286_R2_pair.fastq SRR3740286_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 3796809 Both Surviving: 3625607 (95.49%) Forward Only Surviving: 112579 (2.97%) Reverse Only Surviving: 23151 (0.61%) Dropped: 35472 (0.93%)
+TrimmomaticPE: Completed successfully
+
+real	1m4.656s
+user	0m27.891s
+sys	0m4.737s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740287_R1.fastq SRR3740287_R2.fastq SRR3740287_R1_pair.fastq SRR3740287_R1_unpair.fastq SRR3740287_R2_pair.fastq SRR3740287_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4117315 Both Surviving: 3910531 (94.98%) Forward Only Surviving: 135474 (3.29%) Reverse Only Surviving: 25680 (0.62%) Dropped: 45630 (1.11%)
+TrimmomaticPE: Completed successfully
+
+real	1m8.653s
+user	0m30.786s
+sys	0m5.702s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740288_R1.fastq SRR3740288_R2.fastq SRR3740288_R1_pair.fastq SRR3740288_R1_unpair.fastq SRR3740288_R2_pair.fastq SRR3740288_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4935774 Both Surviving: 4573142 (92.65%) Forward Only Surviving: 57634 (1.17%) Reverse Only Surviving: 176911 (3.58%) Dropped: 128087 (2.60%)
+TrimmomaticPE: Completed successfully
+
+real	1m14.178s
+user	0m34.369s
+sys	0m6.033s
+
+nohup: ignoring input and appending output to 'nohup.out'
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740299_R1.fastq SRR3740299_R2.fastq SRR3740299_R1_pair.fastq SRR3740299_R1_unpair.fastq SRR3740299_R2_pair.fastq SRR3740299_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10508887 Both Surviving: 9728149 (92.57%) Forward Only Surviving: 103890 (0.99%) Reverse Only Surviving: 444149 (4.23%) Dropped: 232699 (2.21%)
+TrimmomaticPE: Completed successfully
+
+real	2m15.769s
+user	1m15.797s
+sys	0m10.458s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740300_R1.fastq SRR3740300_R2.fastq SRR3740300_R1_pair.fastq SRR3740300_R1_unpair.fastq SRR3740300_R2_pair.fastq SRR3740300_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 11382793 Both Surviving: 10415110 (91.50%) Forward Only Surviving: 462423 (4.06%) Reverse Only Surviving: 258729 (2.27%) Dropped: 246531 (2.17%)
+TrimmomaticPE: Completed successfully
+
+real	2m28.064s
+user	1m25.697s
+sys	0m11.037s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740301_R1.fastq SRR3740301_R2.fastq SRR3740301_R1_pair.fastq SRR3740301_R1_unpair.fastq SRR3740301_R2_pair.fastq SRR3740301_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 11290178 Both Surviving: 10573156 (93.65%) Forward Only Surviving: 385603 (3.42%) Reverse Only Surviving: 113522 (1.01%) Dropped: 217897 (1.93%)
+TrimmomaticPE: Completed successfully
+
+real	2m20.373s
+user	1m22.165s
+sys	0m10.796s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740303_R1.fastq SRR3740303_R2.fastq SRR3740303_R1_pair.fastq SRR3740303_R1_unpair.fastq SRR3740303_R2_pair.fastq SRR3740303_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10578583 Both Surviving: 9856128 (93.17%) Forward Only Surviving: 195831 (1.85%) Reverse Only Surviving: 330204 (3.12%) Dropped: 196420 (1.86%)
+TrimmomaticPE: Completed successfully
+
+real	2m23.265s
+user	1m16.591s
+sys	0m11.295s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740305_R1.fastq SRR3740305_R2.fastq SRR3740305_R1_pair.fastq SRR3740305_R1_unpair.fastq SRR3740305_R2_pair.fastq SRR3740305_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5205524 Both Surviving: 4731764 (90.90%) Forward Only Surviving: 51709 (0.99%) Reverse Only Surviving: 324152 (6.23%) Dropped: 97899 (1.88%)
+TrimmomaticPE: Completed successfully
+
+real	1m4.902s
+user	0m39.535s
+sys	0m5.522s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740335_R1.fastq SRR3740335_R2.fastq SRR3740335_R1_pair.fastq SRR3740335_R1_unpair.fastq SRR3740335_R2_pair.fastq SRR3740335_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 6153752 Both Surviving: 5768873 (93.75%) Forward Only Surviving: 35877 (0.58%) Reverse Only Surviving: 274605 (4.46%) Dropped: 74397 (1.21%)
+TrimmomaticPE: Completed successfully
+
+real	1m17.600s
+user	0m46.487s
+sys	0m6.395s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740336_R1.fastq SRR3740336_R2.fastq SRR3740336_R1_pair.fastq SRR3740336_R1_unpair.fastq SRR3740336_R2_pair.fastq SRR3740336_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5731931 Both Surviving: 5389824 (94.03%) Forward Only Surviving: 34203 (0.60%) Reverse Only Surviving: 235176 (4.10%) Dropped: 72728 (1.27%)
+TrimmomaticPE: Completed successfully
+
+real	1m6.127s
+user	0m42.969s
+sys	0m5.809s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740337_R1.fastq SRR3740337_R2.fastq SRR3740337_R1_pair.fastq SRR3740337_R1_unpair.fastq SRR3740337_R2_pair.fastq SRR3740337_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5103205 Both Surviving: 4789320 (93.85%) Forward Only Surviving: 29765 (0.58%) Reverse Only Surviving: 226954 (4.45%) Dropped: 57166 (1.12%)
+TrimmomaticPE: Completed successfully
+
+real	1m16.027s
+user	0m38.774s
+sys	0m5.149s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740338_R1.fastq SRR3740338_R2.fastq SRR3740338_R1_pair.fastq SRR3740338_R1_unpair.fastq SRR3740338_R2_pair.fastq SRR3740338_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4956947 Both Surviving: 4563675 (92.07%) Forward Only Surviving: 201092 (4.06%) Reverse Only Surviving: 57349 (1.16%) Dropped: 134831 (2.72%)
+TrimmomaticPE: Completed successfully
+
+real	0m56.374s
+user	0m36.721s
+sys	0m5.239s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740342_R1.fastq SRR3740342_R2.fastq SRR3740342_R1_pair.fastq SRR3740342_R1_unpair.fastq SRR3740342_R2_pair.fastq SRR3740342_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 5263197 Both Surviving: 4898487 (93.07%) Forward Only Surviving: 171194 (3.25%) Reverse Only Surviving: 61331 (1.17%) Dropped: 132185 (2.51%)
+TrimmomaticPE: Completed successfully
+
+real	1m20.944s
+user	0m38.634s
+sys	0m5.603s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740345_R1.fastq SRR3740345_R2.fastq SRR3740345_R1_pair.fastq SRR3740345_R1_unpair.fastq SRR3740345_R2_pair.fastq SRR3740345_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 13050202 Both Surviving: 12131779 (92.96%) Forward Only Surviving: 125332 (0.96%) Reverse Only Surviving: 557087 (4.27%) Dropped: 236004 (1.81%)
+TrimmomaticPE: Completed successfully
+
+real	2m45.671s
+user	1m36.302s
+sys	0m12.999s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740346_R1.fastq SRR3740346_R2.fastq SRR3740346_R1_pair.fastq SRR3740346_R1_unpair.fastq SRR3740346_R2_pair.fastq SRR3740346_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 9035766 Both Surviving: 7891572 (87.34%) Forward Only Surviving: 84647 (0.94%) Reverse Only Surviving: 812160 (8.99%) Dropped: 247387 (2.74%)
+TrimmomaticPE: Completed successfully
+
+real	1m49.897s
+user	1m6.301s
+sys	0m8.775s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740347_R1.fastq SRR3740347_R2.fastq SRR3740347_R1_pair.fastq SRR3740347_R1_unpair.fastq SRR3740347_R2_pair.fastq SRR3740347_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10372320 Both Surviving: 9613717 (92.69%) Forward Only Surviving: 194960 (1.88%) Reverse Only Surviving: 332440 (3.21%) Dropped: 231203 (2.23%)
+TrimmomaticPE: Completed successfully
+
+real	2m19.137s
+user	1m15.938s
+sys	0m10.392s
+TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR3740349_R1.fastq SRR3740349_R2.fastq SRR3740349_R1_pair.fastq SRR3740349_R1_unpair.fastq SRR3740349_R2_pair.fastq SRR3740349_R2_unpair.fastq HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 4551178 Both Surviving: 4211000 (92.53%) Forward Only Surviving: 46165 (1.01%) Reverse Only Surviving: 203466 (4.47%) Dropped: 90547 (1.99%)
+TrimmomaticPE: Completed successfully
+
+real	1m2.097s
+user	0m33.695s
+sys	0m5.073s

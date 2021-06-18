@@ -1,0 +1,42 @@
+21:42:31.493 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 15, 2021 9:42:31 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+21:42:31.613 INFO  VariantFiltration - ------------------------------------------------------------
+21:42:31.613 INFO  VariantFiltration - The Genome Analysis Toolkit (GATK) v4.2.0.0
+21:42:31.613 INFO  VariantFiltration - For support and documentation go to https://software.broadinstitute.org/gatk/
+21:42:31.613 INFO  VariantFiltration - Executing as graham@deathstar on Linux v4.15.0-142-generic amd64
+21:42:31.613 INFO  VariantFiltration - Java runtime: Java HotSpot(TM) 64-Bit Server VM v14+36-1461
+21:42:31.614 INFO  VariantFiltration - Start Date/Time: 15 June 2021 at 21:42:31 BST
+21:42:31.614 INFO  VariantFiltration - ------------------------------------------------------------
+21:42:31.614 INFO  VariantFiltration - ------------------------------------------------------------
+21:42:31.614 INFO  VariantFiltration - HTSJDK Version: 2.24.0
+21:42:31.614 INFO  VariantFiltration - Picard Version: 2.25.0
+21:42:31.614 INFO  VariantFiltration - Built for Spark Version: 2.4.5
+21:42:31.615 INFO  VariantFiltration - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+21:42:31.615 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+21:42:31.615 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+21:42:31.615 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+21:42:31.615 INFO  VariantFiltration - Deflater: IntelDeflater
+21:42:31.615 INFO  VariantFiltration - Inflater: IntelInflater
+21:42:31.615 INFO  VariantFiltration - GCS max retries/reopens: 20
+21:42:31.615 INFO  VariantFiltration - Requester pays: disabled
+21:42:31.615 INFO  VariantFiltration - Initializing engine
+21:42:31.721 INFO  FeatureManager - Using codec VCFCodec to read file file:///media/Data/gt293/comp-gen-zymo/data/seqs/trimmed/marked-dup-bam/genotype.vcf.gz
+21:42:31.746 INFO  VariantFiltration - Done initializing engine
+21:42:31.747 INFO  VariantFiltration - Shutting down engine
+[15 June 2021 at 21:42:31 BST] org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=142606336
+java.lang.IllegalArgumentException: Inconsistent number of provided filter names and expressions: names=[] exps=[QUAL < 250,QD < 20.0,MQ < 30.0,-2 > BaseQRankSum > 2,-2 > MQRankSum > 2,-2 > ReadPosRankSum > 2,FS > 0.1]
+	at htsjdk.variant.variantcontext.VariantContextUtils.initializeMatchExps(VariantContextUtils.java:238)
+	at htsjdk.variant.variantcontext.VariantContextUtils.initializeMatchExps(VariantContextUtils.java:259)
+	at org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration.onTraversalStart(VariantFiltration.java:334)
+	at org.broadinstitute.hellbender.engine.GATKTool.doWork(GATKTool.java:1056)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.runTool(CommandLineProgram.java:140)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMainPostParseArgs(CommandLineProgram.java:192)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:211)
+	at org.broadinstitute.hellbender.Main.runCommandLineProgram(Main.java:160)
+	at org.broadinstitute.hellbender.Main.mainEntry(Main.java:203)
+	at org.broadinstitute.hellbender.Main.main(Main.java:289)
+Using GATK jar /home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar VariantFiltration -R /media/Data/gt293/zymo-reference/zymo-dna-fasta/Zymoseptoria_tritici.MG2.dna.toplevel.fa -V genotype.vcf.gz -O genotype_filt.vcf.gz --filter-expression QUAL < 250,QD < 20.0,MQ < 30.0,-2 > BaseQRankSum > 2,-2 > MQRankSum > 2,-2 > ReadPosRankSum > 2,FS > 0.1

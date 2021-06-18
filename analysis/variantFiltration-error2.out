@@ -1,0 +1,78 @@
+20:53:58.601 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 17, 2021 8:53:58 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+20:53:58.810 INFO  VariantFiltration - ------------------------------------------------------------
+20:53:58.810 INFO  VariantFiltration - The Genome Analysis Toolkit (GATK) v4.2.0.0
+20:53:58.810 INFO  VariantFiltration - For support and documentation go to https://software.broadinstitute.org/gatk/
+20:53:58.811 INFO  VariantFiltration - Executing as graham@deathstar on Linux v4.15.0-142-generic amd64
+20:53:58.811 INFO  VariantFiltration - Java runtime: Java HotSpot(TM) 64-Bit Server VM v14+36-1461
+20:53:58.811 INFO  VariantFiltration - Start Date/Time: 17 June 2021 at 20:53:58 BST
+20:53:58.811 INFO  VariantFiltration - ------------------------------------------------------------
+20:53:58.811 INFO  VariantFiltration - ------------------------------------------------------------
+20:53:58.811 INFO  VariantFiltration - HTSJDK Version: 2.24.0
+20:53:58.812 INFO  VariantFiltration - Picard Version: 2.25.0
+20:53:58.812 INFO  VariantFiltration - Built for Spark Version: 2.4.5
+20:53:58.812 INFO  VariantFiltration - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+20:53:58.812 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+20:53:58.812 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+20:53:58.812 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+20:53:58.812 INFO  VariantFiltration - Deflater: IntelDeflater
+20:53:58.812 INFO  VariantFiltration - Inflater: IntelInflater
+20:53:58.812 INFO  VariantFiltration - GCS max retries/reopens: 20
+20:53:58.812 INFO  VariantFiltration - Requester pays: disabled
+20:53:58.812 INFO  VariantFiltration - Initializing engine
+20:53:58.974 INFO  FeatureManager - Using codec VCFCodec to read file file:///media/Data/gt293/comp-gen-zymo/data/seqs/trimmed/combined-vcf/genotype-selectedSNPs.vcf.gz
+20:53:59.051 INFO  VariantFiltration - Done initializing engine
+20:53:59.122 INFO  ProgressMeter - Starting traversal
+20:53:59.122 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+20:53:59.146 WARN  JexlEngine - ![0,9]: 'MQRankSum < -2;' undefined variable MQRankSum
+20:53:59.153 WARN  JexlEngine - ![0,14]: 'ReadPosRankSum > 2;' undefined variable ReadPosRankSum
+20:53:59.153 WARN  JexlEngine - ![0,9]: 'MQRankSum > 2;' undefined variable MQRankSum
+20:53:59.153 WARN  JexlEngine - ![0,14]: 'ReadPosRankSum < -2;' undefined variable ReadPosRankSum
+20:53:59.153 WARN  JexlEngine - ![0,12]: 'BaseQRankSum > 2;' undefined variable BaseQRankSum
+20:53:59.153 WARN  JexlEngine - ![0,12]: 'BaseQRankSum < -2;' undefined variable BaseQRankSum
+20:53:59.165 INFO  VariantFiltration - Shutting down engine
+[17 June 2021 at 20:53:59 BST] org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration done. Elapsed time: 0.01 minutes.
+Runtime.totalMemory()=142606336
+java.lang.NumberFormatException: For input string: "0.00"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:707)
+	at java.base/java.lang.Long.parseLong(Long.java:832)
+	at org.apache.commons.jexl2.JexlArithmetic.toLong(JexlArithmetic.java:906)
+	at org.apache.commons.jexl2.JexlArithmetic.compare(JexlArithmetic.java:718)
+	at org.apache.commons.jexl2.JexlArithmetic.lessThan(JexlArithmetic.java:774)
+	at org.apache.commons.jexl2.Interpreter.visit(Interpreter.java:967)
+	at org.apache.commons.jexl2.parser.ASTLTNode.jjtAccept(ASTLTNode.java:18)
+	at org.apache.commons.jexl2.Interpreter.interpret(Interpreter.java:232)
+	at org.apache.commons.jexl2.ExpressionImpl.evaluate(ExpressionImpl.java:65)
+	at htsjdk.variant.variantcontext.JEXLMap.evaluateExpression(JEXLMap.java:186)
+	at htsjdk.variant.variantcontext.JEXLMap.get(JEXLMap.java:95)
+	at htsjdk.variant.variantcontext.JEXLMap.get(JEXLMap.java:15)
+	at htsjdk.variant.variantcontext.VariantContextUtils.match(VariantContextUtils.java:338)
+	at org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration.matchesFilter(VariantFiltration.java:452)
+	at org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration.filter(VariantFiltration.java:406)
+	at org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration.apply(VariantFiltration.java:353)
+	at org.broadinstitute.hellbender.engine.VariantWalker.lambda$traverse$0(VariantWalker.java:104)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.broadinstitute.hellbender.engine.VariantWalker.traverse(VariantWalker.java:102)
+	at org.broadinstitute.hellbender.engine.GATKTool.doWork(GATKTool.java:1058)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.runTool(CommandLineProgram.java:140)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMainPostParseArgs(CommandLineProgram.java:192)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:211)
+	at org.broadinstitute.hellbender.Main.runCommandLineProgram(Main.java:160)
+	at org.broadinstitute.hellbender.Main.mainEntry(Main.java:203)
+	at org.broadinstitute.hellbender.Main.main(Main.java:289)
+Using GATK jar /home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar VariantFiltration -R /media/Data/gt293/zymo-reference/zymo-dna-fasta/Zymoseptoria_tritici.MG2.dna.toplevel.fa -V genotype-selectedSNPs.vcf.gz -O genotype-selectedSNPs-filt.vcf.gz --filter-expression QUAL < 250 --filter-expression QD < 20.0 --filter-expression MQ < 30.0 --filter-expression BaseQRankSum > 2 --filter-expression BaseQRankSum < -2 --filter-expression MQRankSum > 2 --filter-expression MQRankSum < -2 --filter-expression ReadPosRankSum > 2 --filter-expression ReadPosRankSum < -2 --filter-expression FS > 0.1 --filter-name QualFilter --filter-name QDFilter --filter-name MQ --filter-name BaseQRankSumPos --filter-name BaseQRankSumNeg --filter-name MQRankSumPos --filter-name MQRankSumNeg --filter-name ReadPosRankSumPos --filter-name ReadPosRankSumNeg --filter-name FSFilter

@@ -1,0 +1,41 @@
+12:10:27.397 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 17, 2021 12:10:27 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+12:10:27.668 INFO  SelectVariants - ------------------------------------------------------------
+12:10:27.669 INFO  SelectVariants - The Genome Analysis Toolkit (GATK) v4.2.0.0
+12:10:27.669 INFO  SelectVariants - For support and documentation go to https://software.broadinstitute.org/gatk/
+12:10:27.669 INFO  SelectVariants - Executing as graham@deathstar on Linux v4.15.0-142-generic amd64
+12:10:27.669 INFO  SelectVariants - Java runtime: Java HotSpot(TM) 64-Bit Server VM v14+36-1461
+12:10:27.669 INFO  SelectVariants - Start Date/Time: 17 June 2021 at 12:10:27 BST
+12:10:27.669 INFO  SelectVariants - ------------------------------------------------------------
+12:10:27.669 INFO  SelectVariants - ------------------------------------------------------------
+12:10:27.670 INFO  SelectVariants - HTSJDK Version: 2.24.0
+12:10:27.670 INFO  SelectVariants - Picard Version: 2.25.0
+12:10:27.670 INFO  SelectVariants - Built for Spark Version: 2.4.5
+12:10:27.670 INFO  SelectVariants - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+12:10:27.677 INFO  SelectVariants - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+12:10:27.677 INFO  SelectVariants - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+12:10:27.677 INFO  SelectVariants - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+12:10:27.677 INFO  SelectVariants - Deflater: IntelDeflater
+12:10:27.677 INFO  SelectVariants - Inflater: IntelInflater
+12:10:27.677 INFO  SelectVariants - GCS max retries/reopens: 20
+12:10:27.677 INFO  SelectVariants - Requester pays: disabled
+12:10:27.677 INFO  SelectVariants - Initializing engine
+12:10:27.842 INFO  FeatureManager - Using codec VCFCodec to read file file:///media/Data/gt293/comp-gen-zymo/data/seqs/trimmed/combined-vcf/genotype.vcf.gz
+12:10:27.980 INFO  SelectVariants - Done initializing engine
+12:10:28.086 INFO  ProgressMeter - Starting traversal
+12:10:28.090 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+12:10:38.097 INFO  ProgressMeter -             2:809169              0.2                323000        1936644.3
+12:10:48.109 INFO  ProgressMeter -             4:916622              0.3                686000        2056046.8
+12:10:58.139 INFO  ProgressMeter -            6:2381096              0.5               1047000        2090585.4
+12:11:08.148 INFO  ProgressMeter -             9:227934              0.7               1400000        2096959.4
+12:11:18.173 INFO  ProgressMeter -            12:134656              0.8               1753000        2100113.8
+12:11:28.198 INFO  ProgressMeter -            17:235399              1.0               2110000        2106208.8
+12:11:33.412 INFO  ProgressMeter -            21:389119              1.1               2329627        2139824.6
+12:11:33.412 INFO  ProgressMeter - Traversal complete. Processed 2329627 total variants in 1.1 minutes.
+12:11:33.420 INFO  SelectVariants - Shutting down engine
+[17 June 2021 at 12:11:33 BST] org.broadinstitute.hellbender.tools.walkers.variantutils.SelectVariants done. Elapsed time: 1.10 minutes.
+Runtime.totalMemory()=729808896
+Using GATK jar /home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/graham/Bin/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar SelectVariants -R /media/Data/gt293/zymo-reference/zymo-dna-fasta/Zymoseptoria_tritici.MG2.dna.toplevel.fa -V genotype.vcf.gz --select-type-to-include SNP -O genotype-selectedSNPs.vcf.gz
