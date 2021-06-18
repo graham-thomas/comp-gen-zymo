@@ -37,24 +37,6 @@ Now run
 
 had to configure sratools (followed quick configure guide from website)
 
-tried
-
-    for f in *.sra; do fasterq-dump $f; done
-
-returned error
-
-    2021-05-16T08:34:25 fasterq-dump.2.11.0 err: name not found while 
-    resolving query within virtual file system module - failed to resolve 
-    accession '*.sra' - Cannot resolve accession ( 404 )
-    2021-05-16T08:34:25 fasterq-dump.2.11.0 err: extract_acc2( '*.sra' ).VFSManagerExtractAccessionOrOID() -> RC(rcVFS,rcPath,rcConstructing,rcParam,rcIncorrect)
-    2021-05-16T08:34:26 fasterq-dump.2.11.0 err: name not found while 
-    resolving query within virtual file system module - failed to resolve 
-    accession '*.sra' - Cannot resolve accession ( 404 )
-    2021-05-16T08:34:26 fasterq-dump.2.11.0 err: invalid accession '*.sra'
-    fasterq-dump quit with error code 3
-
-Likely problem that all the .sra files are in their own directories with same name. 
-
 Move all .sra files to comp-gen-zymo directory
 
     mv **/*.sra ./
@@ -106,99 +88,9 @@ Edit auto-trim script to point to my trimmomatic.jar and use options from paper,
 
     source ../scripts/auto_trim *.fastq
 
-That is working but some interesting messages e.g.;
-
-    [Running trimmomatic for sample] SRR3740286 at graham
-
-    Tue 18 May 14:47:01 BST 2021
-    TrimmomaticPE: Started with arguments: -threads 8 -phred33 
-    SRR3740286_R1.fastq SRR3740286_R2.fastq SRR3740286_R1_pair.fastq 
-    SRR3740286_R1_unpair.fastq SRR3740286_R2_pair.fastq SRR3740286_R2_unpair.fastq 
-    HEADCROP:7 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 MINLEN:50
-    May 18, 2021 2:47:01 PM org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer 
-    makeIlluminaClippingTrimmer
-    SEVERE: null
-    java.io.FileNotFoundException: /media/Data/gt293/comp-gen-zymo/fastq
-    /TruSeq3-PE.fa (No such file or directory)
-            at java.base/java.io.FileInputStream.open0(Native Method)
-            at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
-            at java.base/java.io.FileInputStream.<init>(FileInputStream.java:154)
-            at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
-            at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences
-            (IlluminaClippingTrimmer.java:107)
-            at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.
-            makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:70)
-            at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer
-            (TrimmerFactory.java:27)
-            at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:515)
-            at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:35)
-
-    Input Read Pairs: 3796809 Both Surviving: 3625612 (95.49%) Forward Only Surviving: 112574 (2.96%) Reverse Only Surviving: 23151 (0.61%) Dropped: 35472 (0.93%)
-    TrimmomaticPE: Completed successfully
-
-    real    0m42.142s
-    user    0m26.109s
-    sys     0m6.310s
-
 ### 2021-05-19
 
 Having googled TruSeq3-PE.fa the file is found on github, contains four lines. Have copy pasted into new file of same name in 'fastq/'.
-
-Now re-run;
-
-    source ../scripts/auto_trim *.fastq
-
-Example output from that;
-
-    [Running trimmomatic for sample] SRR4907766 at graham
-
-    Wed 19 May 13:24:30 BST 2021
-    TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR4907766_R1.fastq 
-    SRR4907766_R2.fastq SRR4907766_R1_pair.fastq SRR4907766_R1_unpair.fastq 
-    SRR4907766_R2_pair.fastq SRR4907766_R2_unpair.fastq HEADCROP:7 
-    ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 
-    SLIDINGWINDOW:5:10 MINLEN:50
-    Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 
-    'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-    ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only 
-    sequences, 0 reverse only sequences
-    Input Read Pairs: 7400036 Both Surviving: 6974137 (94.24%) Forward Only Surviving: 
-    245066 (3.31%) Reverse Only Surviving: 70761 (0.96%) Dropped: 110072 (1.49%)
-    TrimmomaticPE: Completed successfully
-
-    real    1m59.299s
-    user    1m18.503s
-    sys     0m13.693s
-
-    [Running trimmomatic for sample] SRR4907766_R2.fastq at graham
-
-    Wed 19 May 13:26:29 BST 2021
-    TrimmomaticPE: Started with arguments: -threads 8 -phred33 SRR4907766_R2.fastq_R1 
-    SRR4907766_R2.fastq_R2 SRR4907766_R2.fastq_R1_pair SRR4907766_R2.fastq_R1_unpair 
-    SRR4907766_R2.fastq_R2_pair SRR4907766_R2.fastq_R2_unpair HEADCROP:7 
-    ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:5:10 
-    MINLEN:50 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 
-    'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-    ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only 
-    sequences, 0 reverse only sequences
-    Exception in thread "main" java.io.FileNotFoundException: SRR4907766_R2.fastq_R1 
-    (No such file or directory)
-            at java.base/java.io.FileInputStream.open0(Native Method)
-            at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
-            at java.base/java.io.FileInputStream.<init>(FileInputStream.java:154)
-            at org.usadellab.trimmomatic.fastq.FastqParser.parse(FastqParser.java:127)
-            at org.usadellab.trimmomatic.TrimmomaticPE.process(TrimmomaticPE.java:257)
-            at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:518)
-            at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:35)
-
-    real    0m0.066s
-    user    0m0.067s
-    sys     0m0.024s
-    rm: cannot remove '*unpair*': No such file or directory
-
-Appears to alternate between successful run, then having a problem with 'Exception in thread "main" java.io.FileNotFoundException: SRR4907766_R2.fastq_R1 (No such file or directory)'
-
-Have deleted new files. Will try and run command on a subset. Have moved 20 pairs to /seqs/. Along with TruSeq3-PE.fa
 
 Try again;
 
@@ -384,6 +276,7 @@ set the auto_activate_base parameter to false:
 conda config --set auto_activate_base false
 
 ### Run GATK and Picard commands
+
 From https://gatk.broadinstitute.org/hc/en-us/articles/360036194592-Getting-started-with-GATK4
 
 Available tools are listed and described in some detail in the Tool Index section, along with available options. The basic syntax for invoking any GATK or Picard tool is the following:
@@ -917,9 +810,6 @@ Success. Moved stderr to /analysis/variantFiltration.out
 Next step from supplementary methods;
 
 "After hard-filtering, we excluded SNPs with a genotyping rate <90% and a minor allele frequency (MAF) <5%. We also excluded SNPs on accessory chromosomes (i.e. chromosomes not found in all isolates of the species). These filtration steps were performed with vcftools version 0.1.12b (Danecek et al., 2011) and plink 1.9 version (https://www.cog- genomics.org/plink2; (Chang et al., 2015). Finally, we converted tri-allelic SNPs to bi-allelic SNPs by recoding the least frequent allele as a missing genotype. Conversion of tri-allelic SNPs was performed to satisfy requirements of association mapping software."
-
-
-
 
 
 -------------------------------------------------------------------------------------------------------
