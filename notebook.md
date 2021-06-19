@@ -250,10 +250,12 @@ Gives example usage;
       M=marked_dup_metrics.txt
 
 Next step of analysis from paper;
+
 - Single nucleotide polymorphism (SNP) calling was performed using the Genome Analysis Toolkit (GATK) version 3.3-0.
 Go to;
 https://gatk.broadinstitute.org/hc/en-us/articles/360036194592-Getting-started-with-GATK4
 
+    
     cd /home/graham/Bin/
     wget https://github.com/broadinstitute/gatk/releases/download/4.2.0.0/gatk-4.2.0.0.zip
     unzip *.zip
@@ -776,6 +778,16 @@ From the papers vcf file, I am aiming for
 
 **779249** GWAS_SNP_dataset_106_Zymoseptoria_tritici_isolates.vcf
 
+Edited variantFiltration.sh again to reflect the paramaters used in /ena/GWAS_SNP_dataset_106_Zymoseptoria_tritici_isolates.vcf. Then run;
+
+    gatk SelectVariants \
+    -R /media/Data/gt293/zymo-reference/zymo-dna-fasta/Zymoseptoria_tritici.MG2.dna.toplevel.fa \
+    -V genotype-varFilt-one.vcf.gz \
+    --select-type-to-include SNP \
+    -O genotype-varFilt-one-SNPs.vcf.gz
+
+    wc -l genotype-varFilt-one-SNPs.vcf.gz
+    2268775 genotype-varFilt-one-SNPs.vcf.gz
 
 ---------------------------------------------------------------------------------
 
