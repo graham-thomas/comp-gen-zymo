@@ -253,7 +253,8 @@ Next step of analysis from paper;
 
 - Single nucleotide polymorphism (SNP) calling was performed using the Genome Analysis Toolkit (GATK) version 3.3-0.
 Go to;
-https://gatk.broadinstitute.org/hc/en-us/articles/360036194592-Getting-started-with-GATK4
+
+https://gatk.broadinstitute.org/hc/en-us/articles/360036194592-Getting-started-with-GATK4.
 
     
     cd /home/graham/Bin/
