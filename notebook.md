@@ -813,7 +813,7 @@ My usage;
 
 Failed. Did not produce output file genotype_filt.vcf.gz. Stderr saved to /analysis/variantFiltration-error.out
 
-I hadn't included the `--filter-name`. Have now added 1 name per filter listed as "filter-1" etc.
+I hadn't included the `--filter-name`. Have now added 1 name per filter listed as per filter names used in original analysis.
 Also had to reformat entries like `-2 > BaseQRankSum > 2` to `BaseQRankSum > 2` & `BaseQRankSum < -2`.
 
 Success. Moved stderr to /analysis/variantFiltration.out
