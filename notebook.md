@@ -6,6 +6,10 @@ Notebook on reproducing the first steps of analysis from Hartmann et al., 2017.
 
 --------------------------------------------------------------------------------
 
+### The result of this work is determining SNPs for 54 isolates of *Z. trititi* from around the world, which can be used for GWAS.
+
+--------------------------------------------------------------------------------
+
 ## Summary Contents;
 
 - Correct set up and managemeant of a bioinformatics project.
@@ -25,7 +29,7 @@ Notebook on reproducing the first steps of analysis from Hartmann et al., 2017.
     - Hard filter variants using `VariantFiltration`
     - Select SNPs only using `SelectVariants`
 
-The result is determining SNP genotypes for 54 isolates of *Z. trititi* from around the world.
+
 
 -----------------------------------------------------------------------------------
 
