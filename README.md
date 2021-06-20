@@ -1,6 +1,6 @@
 # Comparative genomics project (comp-gen-zymo)
 
-## Reproducing Hartmann et al., 2017 analysis on a subset of 54 out of the 106 genomes.
+## Reproducing analysis from Hartmann et al., 2017 "A fungal wheat pathogen evolved host specialization by extensive chromosomal rearrangements" on a subset of 54 out of the 106 genomes.
 
 ### Methods from paper;
 
