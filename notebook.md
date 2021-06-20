@@ -6,7 +6,7 @@ Notebook on reproducing the first steps of analysis from Hartmann et al., 2017.
 
 --------------------------------------------------------------------------------
 
-### The result of this work is determining SNPs for 54 isolates of *Z. trititi* from around the world, which can be used for GWAS.
+### The result of this work is determining SNPs for 54 isolates of *Z. trititi* \n from around the world, which can be used for GWAS.
 
 --------------------------------------------------------------------------------
 
