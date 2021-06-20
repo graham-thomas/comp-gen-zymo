@@ -1,6 +1,6 @@
 # Comparative genomics project (comp-gen-zymo)
 
-### Reproducing analysis from Hartmann et al., 2017 "A fungal wheat pathogen evolved host specialization by extensive chromosomal rearrangements".
+Reproducing analysis from Hartmann et al., 2017 "A fungal wheat pathogen evolved host specialization by extensive chromosomal rearrangements".
 
 ----------------------------------------------------------------------------------------
 
