@@ -1,8 +1,8 @@
 # Comparative genomics project (comp-gen-zymo)
 
-## Reproducing analysis from Hartmann et al., 2017 "A fungal wheat pathogen evolved host specialization by extensive chromosomal rearrangements".
+### Reproducing analysis from Hartmann et al., 2017 "A fungal wheat pathogen evolved host specialization by extensive chromosomal rearrangements".
 
-The purpose of this repository is to demonstate capability of executing population, comparative genomics analysis, ultimately determining SNP variation between 54 *Z. tritici* strains. This is a subset of the 106 genomes analysed in the original paper.
+The purpose of this repository is to **demonstate capability of executing population, comparative genomics analysis**, ultimately determining SNP variation between 54 *Z. tritici* strains. This is a subset of the 106 genomes analysed in the original paper.
 
 ### Methods from paper;
 
