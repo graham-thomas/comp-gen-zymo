@@ -1,8 +1,33 @@
 # comp-gen-zymo
 
-## Comparative genomic analysis between strains of *Zymoseptoria tritici*
+--------------------------------------------------------------------------------
 
 Notebook on reproducing the first steps of analysis from Hartmann et al., 2017.
+
+--------------------------------------------------------------------------------
+
+## Summary Contents;
+
+- Correct set up and managemeant of a bioinformatics project.
+    - Project directories
+    - Project files e.g. README, config.yml etc
+    - Project documentation e.g. this notebook
+- Interacting with the 'NCBI Short Reads Archive', downloading raw fastq files.
+- Processing raw reads using `trimmomatic`.
+- Aligning reads to reference genome using `bowtie2`.
+- Process sam files using `samtools` to generate and sort bam files.
+- Employ the genome analysis toolkit `gatk`
+    - to remove PCR duplicates using `MarkDuplicates`
+    - format bam files, adding meta data using `AddOrReplaceReadGroups`
+    - calling variants on each individual genome using `HaplotypeCaller` and generate vcf file
+    - combining vcf files into one g.vcf file using `Combine-vcf`
+    - Perform joint genotyping using `GenotypeGVCFs`
+    - Hard filter variants using `VariantFiltration`
+    - Select SNPs only using `SelectVariants`
+
+The result is determining SNP genotypes for 54 isolates of *Z. trititi* from around the world.
+
+-----------------------------------------------------------------------------------
 
 ### 2021-05-14 
 
